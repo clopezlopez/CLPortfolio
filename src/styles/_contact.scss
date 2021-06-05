@@ -1,0 +1,127 @@
+.ContactItem{
+    width: 100%;
+    color: $clr-dark;
+    font-family: $ff-secondary;
+    line-height: 1.6;
+    &:not(:last-child){
+        margin-bottom: 1rem;
+    }
+    .contact {
+        display: flex;
+        align-items: center;
+        background-color: $clr-neutral;
+        padding: 3rem 0;
+
+        .right-items {
+            margin-left: 2rem;
+        }
+        img{
+            padding: 0.5rem;
+            border: 1px solid $clr-dark;
+            margin-left: 2rem;
+            width: 17%;
+        }
+        .right-items{
+            h6{
+                font-size: 1.4rem;
+                font-weight: 600;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .right-items {
+                margin-left: 1rem;
+            }
+            img{
+                margin-left: 1.3rem;
+            }
+    
+        }
+    }
+}
+
+.ContactPage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 3rem 0;
+    @media screen and (max-width: 1270px) {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 3rem 1rem;
+       .contact-form {
+           width: 100%;
+           margin-bottom: 1rem;
+       }
+    }
+}
+
+.contact-form{
+    width: 97%;
+    padding: 2rem;
+    color: $clr-neutral;
+    background-color: $clr-neutral;
+
+    h5 {
+        color: $clr-dark;
+        font-size: 1.8rem;
+        margin-bottom: 2.2rem;
+    }
+
+    button {
+        font-size: 1.3rem;
+        padding: .8rem 2rem;
+        margin-top: 1.2rem;
+        color: $clr-light;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: $clr-dark;
+
+        &:focus {
+            background-color: $clr-dark;
+            outline: rgba(255, 255, 255, 0.8) solid 1px;
+        }
+    }
+}
+
+.form-item {
+    margin-bottom: .5rem;
+
+    .form-control {
+        width: 85%;
+        padding: .5rem 0;
+        background: none;
+        border: none;
+        border-bottom: 2px solid $clr-dark;
+        outline: none;
+        transition: border-color .2s;
+    
+        &::placeholder {
+            color: rgba(0, 0, 0, 0.5);
+        }
+    
+        &:focus {
+            border-bottom-color: $clr-light;
+        }
+    
+    }
+
+    input, textarea {
+        font-family: $ff-secondary;
+        font-size: 1.3rem;
+    }
+
+  }
+
+
+
+.error-message {
+    display: block;
+    color: rgb(190, 0, 0);
+    font-size: 1rem;
+}
+
+
+
+
+

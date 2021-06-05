@@ -1,0 +1,123 @@
+.portfolios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 1.6;
+    row-gap: 2.5rem;
+    column-gap: 3rem;
+    @media screen and (max-width: 1600px){
+        // grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+    }
+    @media screen and (max-width: 900px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .portfolio {
+        margin: auto;
+    }
+}
+
+
+
+.card {
+    color: $clr-light;
+    background-size: cover;
+    height: 550px;
+    max-width: 450px;
+    padding-top: 20rem;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    @media screen and (max-width: 450px) {
+        width: 350px;
+    }
+
+    .card-content {
+        padding: 1rem 1.5rem;
+        height: 250px;
+        background: rgba(8, 8, 8, 0.329);
+    }
+
+    .card-title {
+        position: relative;
+        width: max-content;
+        font-size: 1.5rem;
+    }
+
+    .card-title::after {
+        content: "";
+        position: absolute;
+        animation: progress-animation 3s linear infinite;
+        height: 4px;
+        left: calc(1.5rem * -1);
+        bottom: 0;
+        width: calc(100% + 1.5rem);
+        background: linear-gradient(90deg,#dddddd,#333333 17%,#000000 34%,#727272 
+        51%,#dddddd 68%,#333333 85%,#000000);
+        background-size: 300% 100%;
+        transform-origin: left;
+        transition: transform 500ms ease;
+    }
+
+    .card-body {
+        font-family: $ff-secondary;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: .5rem 0 1rem 0;
+    }    
+
+    button {
+        font-size: 1rem;
+    }
+
+    .card-icon {
+        margin-left: 1rem;
+        font-size: 35px;
+        color: $clr-light;
+        
+        .icon {
+            transform: translateY(12px);
+
+            &:hover {
+                color: #670170;
+            } 
+        }
+       
+    }
+}
+  
+
+
+.card:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 400ms;
+    
+}
+
+
+
+
+
+.card:hover .card-title::after, 
+.card:focus-within .card-title::after {
+    transform: scaleX(1);
+}
+
+.card-body {
+    font-family: $ff-secondary;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: .5rem 0 1rem 0;
+}
+
+
+@media (hover) {
+.card-content {
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+}
+
+.card-title::after {
+    transform: scaleX(0);
+}
+}

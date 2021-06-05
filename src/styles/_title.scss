@@ -1,0 +1,22 @@
+.progress {
+  display: flex;
+  background: rgba(255, 255, 255, 0.15);
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 7px;
+  width: 160px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards, progress-animation 3s linear infinite;
+  border-radius: 100px;
+  background: linear-gradient(90deg,#dddddd,#333333 17%,#000000 34%,#727272 
+                              51%,#dddddd 68%,#333333 85%,#000000);
+  background-size: 300% 100%;
+  height: 5px;
+  width: 0;
+}

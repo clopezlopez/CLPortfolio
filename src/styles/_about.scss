@@ -1,0 +1,39 @@
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2rem;
+
+  @media screen and (max-width: 1000px){
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 760px){
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 1rem;
+  }
+
+
+}
+
+.about-content {
+  padding: 2rem 1rem 0 0;
+  margin-bottom: 1.5rem;
+
+  @media screen and (min-width: 760px){
+    padding: 2rem 5rem 0 0;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;  
+  }
+
+}
+
+.skill-content {
+  text-align: center;
+  align-items: center;
+  margin: 1.2rem 0;
+
+  img {
+    width: 100px;
+    padding: 0.5rem;
+  }
+}

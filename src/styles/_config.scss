@@ -1,0 +1,33 @@
+// Variables
+$ff-primary: 'M PLUS Rounded 1c', sans-serif;
+$ff-secondary: 'Roboto', sans-serif;
+$ff-alternate: 'Caveat', cursive;
+    
+$fw-reg: 300;
+$fw-bold: 900;
+    
+$clr-light: #fff;
+$clr-dark: #303030;
+$clr-neutral: #a4acc4;
+
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return $clr-dark;
+  } @else {
+    @return $clr-light;
+  }
+}
+
+// Animations
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+
+@keyframes progress-animation {
+  0% {background-position: 100%}
+  100% {background-position: 0}
+}
+  
