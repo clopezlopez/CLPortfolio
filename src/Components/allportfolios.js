@@ -9,7 +9,7 @@ const portfolios = [
     {
         id: 1,
         category: 'Client',
-        link1: 'https://peaceful-perlman-9020f0.netlify.app/index.html',
+        link1: 'https://studiocromah.netlify.app/',
         link2: 'https://github.com/clopezlopez/cromahwebsite',
         image: port1,
         title: 'Studio Cromah',
@@ -19,7 +19,7 @@ const portfolios = [
     {
         id: 2,
         category: 'Client',
-        link1: 'https://ecstatic-almeida-1e1db7.netlify.app/',
+        link1: 'https://balsamstreetchurch.netlify.app/',
         link2: 'https://github.com/clopezlopez/balsam-street',
         image: port2,
         title: 'Balsam-Street Church',
