@@ -19,6 +19,11 @@
   padding: 2rem 1rem 0 0;
   margin-bottom: 1.5rem;
 
+  p {
+    color: $clr-light;
+    font-size: 1.3rem;
+  }
+
   @media screen and (min-width: 760px){
     padding: 2rem 5rem 0 0;
     grid-column: 1 / span 2;

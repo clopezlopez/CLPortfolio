@@ -14,8 +14,8 @@ function ContactPage() {
                 <ContactForm />
                 <div>
                     <ContactItem icon={phone} text1={'906-396-5366'} title={'Phone'}/>
-                    <ContactItem icon={email} text1={'camilo.a.lopez77@gmail.com'} title={'Email'}/>
-                    <ContactItem icon={location} text1={'Watertown, NY'} text2={'United Kingdom'} title={'Address'}/>
+                    <ContactItem icon={email} text1={'camilo.lopez@clmedia.dev'} title={'Email'}/>
+                    <ContactItem icon={location} text1={'Watertown, NY'} text2={'United States'} title={'Address'}/>
                 </div>
             </div>
         </div>
