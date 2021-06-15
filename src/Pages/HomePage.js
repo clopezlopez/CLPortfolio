@@ -3,6 +3,7 @@ import avatar from '../img/avatar.jpg'
 import { Link } from 'react-router-dom'
 
 
+
 function HomePage () {
   return (
     <div className="HomePage">

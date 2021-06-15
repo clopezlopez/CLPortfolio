@@ -9,10 +9,19 @@ import javascript_logo from '../img/javascript_logo.png'
 import python_logo from '../img/python_logo.png'
 import django_logo from '../img/django_logo.png'
 import postgresql_logo from '../img/postgresql_logo.png'
+import {Helmet} from 'react-helmet'
+
 
 function AboutPage () {
   return (
     <div className="AboutPage">
+      <Helmet>
+          <title>CL Media | About Me</title>
+          <meta 
+            name="description"
+            content="Learn about me and what I do"
+          />
+      </Helmet>
       <Title title={'About Me'} />
       <div className="about-container">
         <div className="about-content">

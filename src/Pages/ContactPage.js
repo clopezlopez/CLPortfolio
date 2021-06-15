@@ -1,14 +1,23 @@
 import React from 'react'
-import ContactItem from '../Components/ContactItem';
-import phone from '../img/phone.svg';
-import email from '../img/emailme.svg';
-import location from '../img/location.svg';
-import Title from '../Components/Title';
-import ContactForm from '../Components/ContactForm';
+import ContactItem from '../Components/ContactItem'
+import phone from '../img/phone.svg'
+import email from '../img/emailme.svg'
+import location from '../img/location.svg'
+import Title from '../Components/Title'
+import ContactForm from '../Components/ContactForm'
+import {Helmet} from 'react-helmet'
+
 
 function ContactPage() {
     return (
         <div>
+            <Helmet>
+                <title>CL Media | Contact</title>
+                <meta 
+                    name="description"
+                    content="Send me a message"
+                />
+            </Helmet>
             <Title title={'Contact Me'}/>
             <div className="ContactPage">
                 <ContactForm />
