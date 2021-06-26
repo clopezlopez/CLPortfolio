@@ -1,5 +1,5 @@
 import React from 'react'
-import CLMedia from '../img/CLMedia_logo.PNG'
+import CLMedia from '../img/clmedia_logo.png'
 import { Link } from 'react-router-dom'
 import { GrLinkedin } from 'react-icons/gr' 
 import { FaGithub } from 'react-icons/fa' 
