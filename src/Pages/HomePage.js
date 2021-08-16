@@ -12,7 +12,7 @@ function HomePage () {
           Hi, I am <span>Camilo Lopez</span>
         </h1>
         <h2 className="home-subtitle subtitle-intro">WEB DEVELOPER</h2>
-        <h3 className="home-subheader subheader-intro">Front-End Developer / Aspiring Full-Stack Developer</h3>
+        <h3 className="home-subheader subheader-intro">Front End Developer / Aspiring Full Stack Developer</h3>
         <img src={avatar} alt="" className="home-img"/>
       </section>
       <div className="center-btn">

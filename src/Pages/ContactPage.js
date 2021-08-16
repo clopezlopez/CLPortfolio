@@ -22,7 +22,7 @@ function ContactPage() {
             <div className="ContactPage">
                 <ContactForm />
                 <div>
-                    <ContactItem icon={phone} text1={'906-396-5366'} title={'Phone'}/>
+                    <ContactItem icon={phone} text1={'315-775-8659'} title={'Phone'}/>
                     <ContactItem icon={email} text1={'camilo.lopez@clmedia.dev'} title={'Email'}/>
                     <ContactItem icon={location} text1={'Watertown, NY'} text2={'United States'} title={'Address'}/>
                 </div>
