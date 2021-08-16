@@ -1,6 +1,5 @@
 import studiocromah from '../img/portImages/studio-cromah.png';
 import balsamstreet from '../img/portImages/balsam-street.PNG';
-import realestate from '../img/portImages/realestate.PNG';
 import restaurant from '../img/portImages/restaurant.png';
 import restaurant1 from '../img/portImages/restaurant1.png';
 import restaurant2 from '../img/portImages/restaurant2.png';
