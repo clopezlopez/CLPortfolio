@@ -22,7 +22,6 @@ const portfolios = [
     {
         id: 2,
         category: 'Projects',
-        category: 'Clients',
         link1: 'https://balsamstreetchurch.netlify.app/',
         link2: 'https://github.com/clopezlopez/balsam-street',
         image: balsamstreet,
@@ -38,7 +37,7 @@ const portfolios = [
         // link2: 'https://github.com/clopezlopez/btre_project',
         image: fam,
         title: 'Forever Always Music',
-        description: 'F.A.M. is a WooCommerce made with WordPress and Crocoblock plugins'
+        description: 'F.A.M. is a WooCommerce WordPress site made with Crocoblock plugins'
     },
 
     {
@@ -57,7 +56,7 @@ const portfolios = [
         link1: 'https://camilol22.sg-host.com/',
         // link2: 'https://github.com/clopezlopez/cromahwebsite',
         image: barbershop,
-        title: 'Barbershop with booking',
+        title: 'Barbershop with Booking',
         description: 'Barbershop website integrated with a booking system perfect for small businesses'
     },
 
