@@ -44,7 +44,7 @@ const portfolios = [
         id: 4,
         category: 'Projects',
         link1: 'https://studiocromah.netlify.app/',
-        // link2: 'https://github.com/clopezlopez/cromahwebsite',
+        link2: 'https://github.com/clopezlopez/cromahwebsite',
         image: studiocromah,
         title: 'Studio Cromah',
         description: 'Multipage portfolio developed with HTML, CSS, and Javascript'
