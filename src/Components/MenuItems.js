@@ -3,6 +3,7 @@ import { FaGithub } from 'react-icons/fa'
 import { ExternalLink } from 'react-external-link'
 
 
+
 function MenuItems({menuItem}) {
     return (
         <div className="portfolios">        
@@ -18,8 +19,10 @@ function MenuItems({menuItem}) {
                                     <ExternalLink href={item.link1}>
                                         <button className="btn">Visit Site</button>
                                     </ExternalLink>
-                                    <ExternalLink href={item.link2} className="card-icon">
-                                            <FaGithub className="icon" />
+                                    <ExternalLink href={item.link2} className="card-icon icons">
+                                    <div className="icon">
+                                        {item.iconlink2}
+                                    </div>
                                     </ExternalLink>
                                 </div>
                             </div>

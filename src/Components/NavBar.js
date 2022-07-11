@@ -1,14 +1,12 @@
 import React from 'react'
 import clmedia from '../img/clmedialogo.png'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { GrLinkedin } from 'react-icons/gr' 
 import { FaGithub } from 'react-icons/fa' 
 import { ExternalLink } from 'react-external-link/dist/index.cjs'
 
 
-
 function NavBar () {
-
 
   return (
     <div className="NavBar">
@@ -18,24 +16,24 @@ function NavBar () {
         </div>
         <ul className="nav-items">
           <li className="nav-item">
-            <Link to="/" activeclassname="active">
+            <NavLink to="/" exact activeclassname="active">
               Home 
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/about" activeclassname="active">
+            <NavLink to="/about" activeclassname="active">
               About 
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/portfolio" activeclassname="active">
+            <NavLink to="/portfolio" activeclassname="active">
               Portfolio 
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/contact" activeclassname="active">
+            <NavLink to="/contact" activeclassname="active">
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <footer className="footer">

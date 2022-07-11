@@ -40,7 +40,6 @@
 
 .icons {
   padding: .5rem 0;
-  cursor: pointer;
   text-decoration: none;
 
 
@@ -50,6 +49,8 @@
       font-size: 30px;
       color: $clr-neutral;
       margin-left: 1rem;
+      cursor: pointer;
+
 
 
       .lk:hover {
@@ -60,6 +61,10 @@
       }
       .fb:hover {
         color: #4267B2;
+      }
+      .wp:hover {
+        color: #21759b;
+        cursor: default;
       }
   }
 }

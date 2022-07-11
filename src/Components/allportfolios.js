@@ -1,22 +1,26 @@
 import studiocromah from '../img/portImages/studio-cromah.png';
 import balsamstreet from '../img/portImages/balsam-street.PNG';
-import restaurant from '../img/portImages/restaurant.png';
-import restaurant1 from '../img/portImages/restaurant1.png';
-import restaurant2 from '../img/portImages/restaurant2.png';
-import barbershop from '../img/portImages/barbershop.png';
-import dentist from '../img/portImages/dentist.png';
-import fam from '../img/portImages/FAM.PNG';
+import balsamstreetClient from '../img/portImages/balsam-street-client.PNG';
+import viewportsites from '../img/portImages/viewportsites.PNG';
+import ecommerce from '../img/portImages/ecommerce.PNG';
+import horticultureindustries from '../img/portImages/horticultureindustries.PNG';
+import accentsonbeauty from '../img/portImages/accentsonbeauty.PNG';
 import daycare from '../img/portImages/daycare.PNG';
+import { FaGithub } from 'react-icons/fa';
+import { ImWordpress } from 'react-icons/im';
+
+
 
 const portfolios = [
+    
     {
         id: 1,
         category: 'Clients',
         link1: 'https://trustydaycare.com/',
-        // link2: 'https://github.com/clopezlopez/btre_project',
+        iconlink2: <ImWordpress className='wp' />,
         image: daycare,
         title: 'Trusty Daycare',
-        description: 'A WordPress site with a custom design and dynamic content'
+        description: 'A WordPress site with a custom design and dynamic content. Using Elementor with Crocoblock premium plugings. * Currently Under Development *'
     },
     
     {
@@ -24,81 +28,69 @@ const portfolios = [
         category: 'Projects',
         link1: 'https://balsamstreetchurch.netlify.app/',
         link2: 'https://github.com/clopezlopez/balsam-street',
+        iconlink2: <FaGithub className="gh" />,
         image: balsamstreet,
         title: 'Balsam-Street Church',
-        description: 'Single page website with a simple design for a local church developed with React-Bootstrap'
-        
+        description: 'Single page website with a simple design for a local church developed with React-Bootstrap'  
     },
 
     {
         id: 3,
-        category: 'Clients',
-        link1: 'https://camilol38.sg-host.com/',
-        // link2: 'https://github.com/clopezlopez/btre_project',
-        image: fam,
-        title: 'Forever Always Music',
-        description: 'F.A.M. is a WooCommerce WordPress site made with Crocoblock plugins'
-    },
-
-    {
-        id: 4,
         category: 'Projects',
         link1: 'https://studiocromah.netlify.app/',
         link2: 'https://github.com/clopezlopez/cromahwebsite',
         image: studiocromah,
         title: 'Studio Cromah',
-        description: 'Multipage portfolio developed with HTML, CSS, and Javascript'
+        description: 'Multipage portfolio developed with HTML, CSS, and Javascript. * Currently Under Development *',
+        iconlink2: <FaGithub className="gh" />,
     },
 
+    {
+        id: 4,
+        category: 'Clients',
+        link1: 'https://accentsonbeauty.com/',
+        image: accentsonbeauty,
+        title: 'Accentson Beauty',
+        description: 'Hairsalon website built using the LiveCanvas theme, HTML, SASS, Javascript, Php, along with a few plugings. * Currently Under Development *',
+        iconlink2: <ImWordpress className='icon' />,
+    },
     {
         id: 5,
-        category: 'Templates',
-        link1: 'https://camilol22.sg-host.com/',
-        // link2: 'https://github.com/clopezlopez/cromahwebsite',
-        image: barbershop,
-        title: 'Barbershop with Booking',
-        description: 'Barbershop website integrated with a booking system perfect for small businesses'
+        category: 'Clients',
+        link1: 'https://horticultureindustries.com/',
+        image: horticultureindustries,
+        title: 'Horticulture Industries',
+        description: 'Horticulture company website built using the LiveCanvas theme, HTML, SASS, Javascript, PHP. * Currently Under Development *',
+        iconlink2: <ImWordpress className='wp' />,
     },
-
     {
         id: 6,
-        category: 'Templates',
-        link1: 'https://camilol25.sg-host.com/',
-        link2: 'https://www.github.com/',
-        image: dentist,
-        title: 'Dentist Template',
-        description: 'Dentist template with a professional and clean design'
+        category: 'Clients',
+        link1: 'https://balsamstreetchristianchurch.com/',
+        image: balsamstreetClient,
+        title: 'Balsam Street Church',
+        description: 'Church website built using the Live Canvas theme, HTML, SASS, Javascript, PHP. * Currently Under Development *',
+        iconlink2: <ImWordpress className='wp' />,
     },
-
 
     {
         id: 7,
-        category: 'Templates',
-        link1: 'https://camilol24.sg-host.com/',
-        link2: 'https://www.github.com/',
-        image: restaurant1,
-        title: 'Restaurant Template',
-        description: 'Restaurant template with a fresh and eye catching design'
+        category: 'Clients',
+        link1: 'https://viewportsites.com/',
+        image: viewportsites,
+        title: 'Viewport Sites',
+        description: 'Web Agency site built using the Live Canvas theme, HTML, SASS, Javascript, PHP',
+        iconlink2: <ImWordpress className='wp' />,
     },
 
     {
         id: 8,
-        category: 'Templates',
-        link1: 'https://camilol19.sg-host.com/',
-        image: restaurant2,
-        title: 'Restaurant Template',
-        description: 'A fully functional food delivery/pick-up system for your restaurant needs'
-        
-    },
-
-    {
-        id: 9,
-        category: 'Templates',
-        link1: 'https://camilol23.sg-host.com/',
-        // link2: 'https://github.com/clopezlopez/cromahwebsite',
-        image: restaurant,
-        title: 'Restaurant Template',
-        description: 'Restaurant template with an elgant and simple deisgn'
+        category: 'Clients',
+        link1: 'https://camilol59.sg-host.com/',
+        image: ecommerce,
+        title: 'Baby Store',
+        description: 'Ecommerce site built using the Live Canvas theme, HTML, SASS, Javascript, PHP, woocommerce, and a few premium plugins',
+        iconlink2: <ImWordpress className='wp' />,
     },
 
     

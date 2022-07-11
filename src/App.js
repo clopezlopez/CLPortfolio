@@ -14,13 +14,13 @@ import {Helmet} from 'react-helmet'
 function App() {
   const [navToggle, setNavToggle] = useState(false);
 
-  const navClick = () =>{
+  const navClick = () => {
     setNavToggle(!navToggle)
   }
 
   return (
     <BrowserRouter>
-      <Helmet>
+      <Helmet> 
           <title>CL Media</title>
           <meta 
             name="description"
