@@ -27,7 +27,7 @@ function AboutPage () {
       <div className="about-container">
         <div className="about-content">
           <h2>Who I am</h2>
-          <p>I am a veteran with a background in Network Administration and a freelance web developer based out of Watertown, NY. In my journey of becoming a front-end developer, I found problem-solving to be my niche, learning has become my hobby, and creating my passion.</p>
+          <p>I am a veteran with a background in Network Administration and a freelance web developer. In my journey of becoming a front-end developer, I found problem-solving to be my niche, learning has become my hobby, and creating my passion.</p>
           <br />
           <h2>What I do</h2>
           <p>I offer UI/UX design which involves planning and iterating a site's layout and structure. Once the proper architecture is in place, I build the visual and functional components using HTML, CSS, Javascript, React Js or WordPress. I also have some experience in back-end development with Python, and Django. </p>
