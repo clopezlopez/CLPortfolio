@@ -1,8 +1,6 @@
 import React from 'react'
-import avatar from '../img/avatar.jpg'
+import avatar from '../img/avatar.webp'
 import { Link } from 'react-router-dom'
-
-
 
 function HomePage () {
   return (
