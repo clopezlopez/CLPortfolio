@@ -86,7 +86,7 @@ const portfolios = [
     {
         id: 8,
         category: 'Clients',
-        link1: 'https://camilol59.sg-host.com/',
+        link1: 'https://tinyview.shop/',
         image: ecommerce,
         title: 'Baby Store',
         description: 'Ecommerce site built using the Live Canvas theme, HTML, SASS, Javascript, PHP, woocommerce, and a few premium plugins',
